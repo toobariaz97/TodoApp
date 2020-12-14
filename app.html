@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        
+        text-align: center;
+        background-image: url("image/todo-list-seamless-pattern-universal-background-vector-7561340.jpg");
+    }
+    input{
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+    }
+    li{
+        list-style-type: none;
+        margin: 2em;
+        font-size: 20px;
+
+    }
+    liText{
+        font-size: 20px;
+
+    }
+    
+    ul{
+    background-image: url();
+    }
+    button{
+     
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:4px 29px;
+	text-decoration:none;
+	text-shadow:0px 0px 50px #283966;
+    margin: 2px 6px;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+input{
+    padding: 20x;
+    width: 200px;
+    height: 30px;
+}
+div{
+    display: block;
+    margin: 4em;
+}
+
+</style>
+<body>
+    <div>
+        <input type="text " placeholder="Enter To-do" id="todo_items">
+        <button onclick="addTodo()">
+            ADD ITEMS
+        </button>
+        <button onclick="deleteAll()">
+            DELETE ALL
+        </button>
+        
+    
+    <div>
+        <ul id="list">
+            <p id="gfg"></p>
+
+
+        </ul>
+    </div>
+    <script src="home.js"></script>
+</body>
+</html>
